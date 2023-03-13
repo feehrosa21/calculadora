@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+
+body{
+    background-color: #efe6f3;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{  
+    width: 20%;
+    color: #c2a47e;
+    font-size: 35px; 
+    border: #481974bd solid 4px;
+    border-radius: 3rem;
+    padding: 0.8rem;
+    letter-spacing: 0.5rem;
+}
+
+#calculator{
+    max-width: 360px;
+    background-color: #481974bd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px #4819747e;
+}
+
+#display{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: #00000086;
+    background-color: #efe6f3;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button{
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    float: left; /*deixa os elementos flutuantes, vai chegar mais perto possivel e se precisar vai sobre sair*/
+    background-color: #efe6f3;
+    color: #000000b2;
+    border-radius: 12px;
+}
+
+.operator{
+    color: #030303;
+    background-color: #a184c4;
+    
+}
+
+#ac{
+    background-color: #c2aa8bc5;
+}
+
+.equal{
+    width: calc(50% - 10px) ;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+.insta {
+    border-radius: 2rem;    
+    display: inline-block;
+}
+
+.insta a{
+    text-decoration: none;
+    color: #43095a;   
+    background-color: #c2a47e;
+    border-radius: 2rem;
+    padding: 0.2rem 0.2rem;
+}
+
+
+.insta a:hover{
+    text-decoration: none;
+    color: #341f4d;
+    border-radius: 2rem;
+    padding-top:0.2rem;
+    padding-bottom: 0.2rem;
+    background-color:#c2aa8b6b;
+    
+}
+
+footer{
+    background-color: #a184c4;
+    color: #000000b2;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: Helvetica;
+    position: relative;
+    bottom: 0;
+    padding: 0.5rem;
+    width: 98.6%;
+    top:1.5rem ;
+   
+}
