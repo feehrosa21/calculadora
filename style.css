@@ -12,11 +12,18 @@ body{
     height: 100vh;
 }
 
-h1{  
-    width: 20%;
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1{ 
     background-color: #a184c4;
     color: #c2a47e;
-    font-size: 35px; 
+    font-size: 35px;
+    font-weight: bold;
     padding: 0.5rem;
     letter-spacing: 0.5rem;
 }
